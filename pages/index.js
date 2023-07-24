@@ -27,7 +27,8 @@ export async function getServerSideProps(context) {
 }
 
 /*
-import { getToken } from "next-auth/jwt";
+{
+  import { getToken } from "next-auth/jwt";
 import { NextResponse } from "next/server";
 
 // This function can be marked `async` if using `await` inside
@@ -55,8 +56,10 @@ export const config = {
      * - _next/image (image optimization files)
      * - favicon.ico (favicon file)
      */
+    /*
     "/((?!api|_next/static|_next/image|favicon.ico).*)",
   ],
 };
 
+}
 */
